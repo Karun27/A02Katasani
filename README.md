@@ -1,1 +1,1 @@
-# A02Katasani
+Taking cost price, marked up price and the amount of discount to be applied to the product is to be given by the user. Later the profit  value can be converted to different currency values.If profit/loss is encountered by the given data the result will be displayed accordingly.
