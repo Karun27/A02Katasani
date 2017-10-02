@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head><link rel="icon" href="calc.png" sizes="128x128">
+    <title>LOGIC</title>
+
+<link  type="text/css" 
+       rel="stylesheet"   
+      href="math.css" />
+      <meta charset=utf-8>
+  </head>
+<body>
+  <div  class=" img-bg">
+ <nav>
+ <ul>
+  <li><a  href="file:///C:/Users/S530472/Documents/44-563/A02Katasani/Katasani_Karunakar.html">HOME</a></li>
+  <li><a href="file:///C:/Users/S530472/Documents/44-563/A02Katasani/logic.html">LOGIC</a></li>
+  <li><a href="file:///C:/Users/S530472/Documents/44-563/A02Katasani/contact.html">CONTACT</a></li>
+</ul></nav></div>
+<div class="container set">
+    <h3> Cost Price and Selling Price </h3>
+
+    
+Enter Cost Price:
+<input type="text" name="input1" id="cp" size=230/>
+Percentage the goods are marked upto:
+<input type="text" name="input2" id="mrk" size=230/>
+Enter the discount offered:
+<input type="text" name="input3" id="prof" size=230/>
+Select the currency to be coverted to: 
+<select id="op" onChange()="doMath()">
+    <option value="usd" id="usd">INR</option>
+    <option value="inr" id="inr">INR</option>
+    <option value="euro" id="euro">Euro</option>
+    <option value="aus" id="aus">Australian Dollar</option>
+    <option value="pound" id="pound">Pounds</option>
+  </select>
+  <input type="button" class="button" value="Calculate" onClick='doMath()'>
+
+<br>
+<p id="re1"></p>
+<p id="re"></p>
+<p id="re2"></p>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="calculations.js"></script>
+</body>
+
+</html>

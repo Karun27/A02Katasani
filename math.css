@@ -1,0 +1,87 @@
+.img-bg{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    margin-left: 0px;
+    font-size:22px;
+    font-family: garamond;  
+}
+body{
+    background-image:url("triangle1.jpg");
+    background-size:101%;
+    background-repeat:no repeat;
+}
+
+.set{
+	color:white;
+	font-family: bold;
+	text-align: center;
+	font-size: 25px;
+	font-family: garamond; 
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 800%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 14px;
+    border: 10px;
+	max-width:230px;
+    border-radius: 4px;
+    cursor: pointer;
+	box-sizing:border-box;
+}
+input[type=button]:hover {
+    background-color: darksalmon;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:black;
+}
+li{
+	display:inline;
+	float:left;
+	tab-size:4;
+	
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+   padding: 15px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: powderblue;
+}
+
+.active {
+    background-color: cyan;
+}
+.container{
+    font-size:35px;
+    margin-right: 225px;
+    margin-left: 250px;
+    color:white;
+}
+
+.button {
+height: 50px;
+width: 100px;
+font-size:14px;
+color:black;
+}

@@ -1,0 +1,93 @@
+input[type=text], select, textarea {
+    width: 120%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left:340px;
+    resize: vertical;
+    font-family: garamond;
+    font-size: 20px;
+}
+
+input[type=submit] {
+   
+   
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.div4 {
+    width: 600px;
+    height: 80px;    
+    padding: 10px;
+    border: 1px black;
+    box-sizing: border-box;
+    align:center;
+    color: white;
+}
+input[type=button]:hover {
+    background-color: darksalmon;
+}
+.button {
+    height: 50px;
+    width: 100px;
+    font-size:14px;
+    color:black;
+    }
+
+
+.container {
+font-family: garamond;
+font-size: 30px;
+text-align:center;
+font-family: bold;
+color: white;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:black;
+}
+li{
+	display:inline;
+	float:left;
+	tab-size:4;
+	
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+   padding: 15px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: powderblue;
+}
+
+.active {
+    background-color: cyan;
+}
+#body{
+	background-image:url("8.jpg");
+	background-size:100%;
+    background-repeat:no repeat;
+}
+#set{
+	color:white;
+	font-family: bold;
+	text-align: center;
+	font-size: 22px;
+	font-family: garamond; 
+}
+.float{
+	float: right;
+}
+	
